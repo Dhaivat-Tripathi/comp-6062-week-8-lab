@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 8 lab</title>  
+    </head>
+    <body>
+        <!--Vue app container-->
+        <div id="app">
+            <h1>{{mainHeading}}</h1>
+            <p v-if= "showMessage">{{message}}</p>
+        </div>
+        <!--Vue.js CDN-->
+        <script src="https://unpkg.com/vue@3.4.31/dist/vue.global.js"></script>
+        <!--JS file-->
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
